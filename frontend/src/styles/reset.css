@@ -1,0 +1,71 @@
+/* Importação da fonte Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Reset básico para zerar o CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; /* Aplicando Roboto como fonte padrão */
+}
+
+/* Remover estilos padrão de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Remover decoração de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Garantir preenchimento e alinhamento em formulários */
+input, button, textarea, select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Ajustar imagens para respeitar o espaço pai */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Garantir um estilo padrão para o body */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remover estilos padrão de tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset para elementos de cabeçalho */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Configurações para botões */
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/* Tornar elementos escondidos de acessibilidade invisíveis */
+[hidden] {
+  display: none;
+}
+
+/* Garantir que elementos flex e grid ocupem todo o espaço */
+:where(html, body) {
+  height: 100%;
+}
